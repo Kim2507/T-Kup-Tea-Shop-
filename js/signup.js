@@ -65,10 +65,3 @@ const validateInputs = () => {
 };
 
 
-const input = document.querySelector("#email");
-for(let e in text){
-  console.log(e.innerHTML);
-  input.addEventListener("input",function(e){
-    l.innerText = input.value;
-});
-}
